@@ -64,8 +64,7 @@ p{
 .eh2{
     text-align: center;
     color: rgb(0, 255, 13);
-    background-color: white;
-    border: 3px solid white;
+    background-image: linear-gradient(to left, red, blue);
     border-radius: 56px;
     font-size: 35px;
     padding: 15px;
@@ -126,4 +125,41 @@ nav a:hover{
 .polynuchka{
     top: 310px;
     background-image: linear-gradient(to left, yellow, black);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0 auto; 
+}
+
+.ehik1{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to left, red, greenyellow);
+}
+
+.eh3{
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(to left, yellow, white);
+}
+
+.divchik{
+    border: 5px solid red;
+    border-radius: 25px;
+}
+
+.obyv8{
+    margin: 10px;
+    justify-content: center;
+    width: 350px;
+    border: 3px solid red;
+    border-radius: 100px;
 }
